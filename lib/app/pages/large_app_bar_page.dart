@@ -11,12 +11,11 @@ class LargeAppBarPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BasePage(
       appBar: LargeAppBar(
-        context: context,
         title: 'Large App Bar',
         subtitle:
             'Subtitle adas asdas asdassss ddsd asd dasd asda asd asdddsd asd dsa',
         information: const {
-          'MAC': "0939492342352842345",
+          'MAC': "0939492342352842345 ",
           'Modelo': "Access Point 360",
           "Modo de peração": "Access Point"
         },

@@ -26,6 +26,10 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.of(context).pushNamed('/large_app_bar'),
               child: const Text('Large App Bar')),
+          ElevatedButton(
+              onPressed: () =>
+                  Navigator.of(context).pushNamed('/help_center_app_bar'),
+              child: const Text('Help Central App Bar')),
         ],
       ),
     );
