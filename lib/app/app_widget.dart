@@ -3,6 +3,7 @@ import 'package:test_components/app/pages/help_center_app_bar_page.dart';
 import 'package:test_components/app/pages/home_page.dart';
 import 'package:test_components/app/pages/large_app_bar_page.dart';
 import 'package:test_components/app/pages/small_app_bar_page.dart';
+import 'package:test_components/app/pages/initial_app_bar_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/small_app_bar': (context) => const SmallAppBarPage(),
         '/large_app_bar': (context) => const LargeAppBarPage(),
         '/help_center_app_bar': (context) => const HelpCenterAppBarPage(),
+        '/initial_app_bar': (context) => const InitialPage(),
       },
     );
   }
